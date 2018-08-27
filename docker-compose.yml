@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  etl-client:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: etl-client
+    restart: always
+    env_file:
+      - ${ENV_FILE}
+    networks:
+      - public
+    ports:
+      - ${APP_PORT:-7000}:5000
+networks:
+  public:

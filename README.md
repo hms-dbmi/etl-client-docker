@@ -1,5 +1,14 @@
 # etl-client 
 
+## Installation 
+
+This etl-client docker image can be deployed using following 2 ways:
+
+- Locally ( make sure docker is installed, up and running ) 
+- on a VM on a cloud vendor like AWS, GCP and Azure
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you are spinning VM on cloud vendor then you have to perform some additional steps to make the machine ready for docker image
+
 
 #### Prepare machine (aws)
 
@@ -40,7 +49,7 @@ change directory to  etl-client-docker
 ```
 cd  etl-client-docker
 ```
-
+## Configuration
 ##### Application expects you to provide Database and AWS keys
 
 edit  etl-client-docker.env
@@ -62,7 +71,7 @@ AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 AWS_REGION= 
 ```
-
+## Start Container
 ##### run the container
 
 ```
@@ -76,16 +85,11 @@ docker-compose build && docker-compose up -d
 docker exec -it etl-client bash
 ```
 
-
-#####  validate your database and aws configurations
+## Validation ( for configuration) 
+You can run the following command to make sure your connections to database and AWS is valid 
 ```
 cd /etl-workdir
 python3  validate_conn.py 
 ```
 
 
-##### url
-
-```
-http://<hostname>:7000/
-```

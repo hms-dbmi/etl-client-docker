@@ -90,4 +90,7 @@ cd /etl-workdir
 python3  validate_conn.py 
 ```
 
+## Load Data
+
+Link for instructions to load data: <link>
 

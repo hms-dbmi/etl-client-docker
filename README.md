@@ -92,5 +92,5 @@ python3  validate_conn.py
 
 ## Load Data
 
-Link for instructions to load data: <link>
+Link for instructions to load data: https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator
 

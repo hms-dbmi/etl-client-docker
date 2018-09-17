@@ -4,10 +4,10 @@
 
 This etl-client docker image can be deployed using following 2 ways:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Locally ( make sure docker is installed, up and running ) 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- on a VM on a cloud vendor like AWS, GCP and Azure
+1. Locally ( make sure docker is installed, up and running ) 
+2. on a VM on a cloud vendor like AWS, GCP and Azure
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you are spinning VM on cloud vendor then you have to perform some additional steps to make the machine ready for docker image
+>If you are spinning VM on cloud vendor then you have to perform some additional steps to make the machine ready for docker image
 
 
 #### Prepare machine (aws)

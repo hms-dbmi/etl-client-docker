@@ -8,9 +8,12 @@ services:
     restart: always
     env_file:
       - ${ENV_FILE}
-    networks:
-      - public
     ports:
       - ${APP_PORT:-7000}:5000
+    networks:
+      - public
+      
 networks:
-  public:
+    public:     
+      external: 
+        name: quickstart_public

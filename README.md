@@ -4,10 +4,10 @@
 
 This etl-client docker image can be deployed using following 2 ways:
 
-- Locally ( make sure docker is installed, up and running ) 
-- on a VM on a cloud vendor like AWS, GCP and Azure
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you are spinning VM on cloud vendor then you have to perform some additional steps to make the machine ready for docker image
+* Locally 
+  * ( make sure docker is installed, up and running ) 
+* On a VM on a cloud vendor like AWS, GCP and Azure
+  * If you are spinning VM on cloud vendor then you have to perform some additional steps to make the machine ready for docker image
 
 
 #### Prepare machine (aws)
@@ -92,5 +92,5 @@ python3  validate_conn.py
 
 ## Load Data
 
-Link for instructions to load data: <link>
+Link for instructions to load data: https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator
 

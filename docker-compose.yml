@@ -1,9 +1,7 @@
 version: '3.3'
 services:
   etl-client:
-    build: 
-      context: .
-      dockerfile: Dockerfile
+    image: dbmi/etl-client:${etl_client_version}
     container_name: etl-client
     restart: always
     env_file:
@@ -14,6 +12,4 @@ services:
       - public
       
 networks:
-    public:     
-      external: 
-        name: quickstart_public
+    public:

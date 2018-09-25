@@ -73,7 +73,7 @@ AWS_REGION=<AWS_REGION>
 ##### run the container
 
 ```
-docker-compose build && docker-compose up -d
+docker-compose up -d
 ```
 
 

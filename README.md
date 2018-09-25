@@ -87,7 +87,7 @@ docker exec -it etl-client bash
 You can run the following command to make sure your connections to database and AWS is valid 
 ```
 cd /etl-workdir
-python3  validate_conn.py 
+python3 validate_oracle_db_conn.py 
 ```
 
 ## Load Data

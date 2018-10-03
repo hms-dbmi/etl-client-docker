@@ -1,7 +1,7 @@
 
 # ETL client
 
-## Use Case 3: ETL client with (Struct DB)
+## Use Case 2: ETL client with (Struct DB)
 
 If there is no Quickstart 18.1 (app and db) and you just want to load the data in database. Just follow the steps:
 * Create Network

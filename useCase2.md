@@ -10,7 +10,7 @@ In this case quickstart stack is up and running and you are loading data in exis
 Please note that scripts truncate and reload the tables.
 
 Just follow the steps:
-* Build et-client-docker
+* Build etl-client-docker
 * Validate Oracle database connection 
 
 

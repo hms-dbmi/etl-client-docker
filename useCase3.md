@@ -1,8 +1,13 @@
 
-## ETL client with (Struct DB):  (use case 3)
+# ETL client
 
-### If there is no Quickstart 18.1 (app and db) - want to try with structure only database.
+## Use Case 3: ETL client with (Struct DB)
 
+If there is no Quickstart 18.1 (app and db) and you just want to load the data in database. Just follow the steps:
+* Create Network
+* Build quickstart database structure only - no data.
+* Build et-client-docker
+* Validate Oracle database connection 
 
 #### Create network
 ```

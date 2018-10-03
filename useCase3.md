@@ -32,7 +32,7 @@ docker run --name etl-client --network quickstart_public \
 ```
 
 #### Validate Oracle database connection
-
+You can run the following command to make sure your connections to database is valid 
 ```
 docker exec -it etl-client bash validate-db.sh 
 ```

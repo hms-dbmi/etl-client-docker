@@ -7,7 +7,11 @@
 ## Use case 2 with (Quickstart 18.1b )
 
 In this case quickstart stack is up and running and you are loading data in existing DB. 
-Please note that scripts truncate and reload the tables
+Please note that scripts truncate and reload the tables.
+
+Just follow the steps:
+* Build et-client-docker
+* Validate Oracle database connection 
 
 
 If there is Quickstart 18.1 (app and db) - want to try with existing database.

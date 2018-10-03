@@ -4,7 +4,7 @@
 
 # ETL client 
 
-## Use case 2: ETL client with (Quickstart 18.1b stack)
+## Use case 1: ETL client with (Quickstart 18.1b stack)
 
 In this case quickstart stack is up and running and you are loading data in existing DB. 
 Please note that scripts truncate and reload the tables.

@@ -30,7 +30,7 @@ docker run --name etl-client --network quickstart_public \
 		-d   -p 7000:5000  dbmi/etl-client:etl-client-i2b2tm-18.1 
 ```
 ### Validate Oracle database connection
-
+You can run the following command to make sure your connections to database is valid 
 ```
 docker exec -it etl-client bash validate-db.sh 
 ```

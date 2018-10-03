@@ -6,7 +6,7 @@
 If there is no Quickstart 18.1 (app and db) and you just want to load the data in database. Just follow the steps:
 * Create Network
 * Build quickstart database structure only - no data.
-* Build et-client-docker
+* Build etl-client-docker
 * Validate Oracle database connection 
 
 #### Create network

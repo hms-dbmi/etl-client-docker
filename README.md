@@ -52,7 +52,6 @@ If you already familiar with the process and want to load your custom data file 
 
 ## Example to load NHANES dataset subsets 
 
-The example here is shown with oracle database. 
 * small~100 
 * large~5k
 

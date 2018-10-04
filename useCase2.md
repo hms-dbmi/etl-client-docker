@@ -22,7 +22,7 @@ docker network create quickstart_public
 
 #### Build QS database structure only - no data.
 ```
-docker run --name quickstart_db --network quickstart_public -d   -p 1521:1521  dbmi/i2b2transmart-db:oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-v1.5-struct-only 
+docker run --name quickstart_db_1 --network quickstart_public -d   -p 1521:1521  dbmi/i2b2transmart-db:oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-v1.5-struct-only 
 ```
 
 #### Build etl-client-docker 

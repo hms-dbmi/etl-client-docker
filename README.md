@@ -35,10 +35,9 @@ If you already familiar with the process and want to load your custom data file 
 
 
 * Make sure quickstart DB 18.1 should be up and running
-* If not, then follow the steps in previous slide
 * Get docker container for etl-client-i2b2tm-18.1
-* Steps to Build etl-client-docker
-* Validate connections to DB
+* Follow [Steps to Build etl-client-docker](https://github.com/hms-dbmi/etl-client-docker)
+ * Validate connections to DB should be successful
 * Start with Datafile you want to load 
 * Build Initial mapping file using MappingGenerator
 * https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator

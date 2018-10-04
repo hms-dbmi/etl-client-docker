@@ -7,9 +7,7 @@ This etl-client docker image can be deployed using following 2 ways:
 * Locally 
   * ( make sure docker is installed, up and running ) 
 * On a VM on a cloud vendor like AWS, GCP and Azure
-  * If you are spinning VM on cloud vendor then you have to perform some additional steps to make the machine ready for docker image
-   
-   https://github.com/hms-dbmi/etl-client-docker/blob/master/etl-client-AWS-EC2.md
+  * If you are spinning VM on cloud vendor then you have to perform some [additional steps ](https://github.com/hms-dbmi/etl-client-docker/blob/master/etl-client-AWS-EC2.md) to make the machine ready for docker image
 
 
 

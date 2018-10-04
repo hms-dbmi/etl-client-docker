@@ -1,8 +1,12 @@
 # etl-client 
 
+ETL-client 18.1 docker container can be used to load the properly delimited dataset (for example: NHANES)  into i2b2/TM 18.1 compatible database.
+
+![ETL Client Oevreview](https://github.com/hms-dbmi/etl-client-docker/blob/master/ETL-client-overview.png)
+
 ## Installation 
 
-ETL-client 18.1 docker container can be used to load the properly delimited dataset (for example: NHANES)  into i2b2/TM 18.1 compatible database.This etl-client docker image can be deployed using following 2 ways:
+This etl-client docker image can be deployed using following 2 ways:
 
 * Locally ( on Mac/Linux ) 
   * Docker should up and running 

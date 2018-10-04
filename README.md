@@ -43,6 +43,9 @@ If you already familiar with the process and want to load your custom data file 
 * Fix mapping file to match your i2b2 tree and datatypes, try using Mapping Editor (provided) to fix the mapping file
 * Run [EntityGenerator](https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator) to generate csv file for each table
 * Run [Workflow scripts](https://github.com/hms-dbmi/ETLToolSuite-WorkflowScripts) to load data in your DB
-* Run quickstart 18.1 app to point to this DB to validate your load
-* Rerun the load ( to refresh database ) 
+* Run [quickstart 18.1 app](https://github.com/i2b2-tranSMART/i2b2transmart-quick-start) to point to this DB to validate your load
+
+## Example to load NHANES dataset subsets ( small~100 and large~5k) 
+
+[Load NHANES data subsets example](https://hms-dbmi.atlassian.net/wiki/spaces/AVL/pages/621183053/Quick+Start+ETL+Examples)
 

@@ -19,11 +19,11 @@ This etl-client docker image can be deployed using following 2 ways:
 
 
 #### There are 2 ways you can use this etl-client.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;##### Use case 1: 
+##### Use case 1: 
         
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ETL client with (Quickstart 18.1b stack)](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase1.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;##### Use Case 2:
+##### Use Case 2:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ETL client with (Struct DB)](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase2.md)
 

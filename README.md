@@ -28,17 +28,13 @@ This etl-client docker image can be deployed using following 2 ways:
 [ETL client with (Struct DB)](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase2.md)
 
 
-## Load Data
+
+## Data Loading Overview
 
 It is recommeded that you first try loading [example datafiles](https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator/tree/master/example) .
 
 
-If you already familiar with the process and want to load your custom data file then follow readme for [MappingGenerator](https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator)
-
-
-
-## Loading process Overview
-
+If you already familiar with the process and want to load your custom data file then just follow the steps below.
 
 * Make sure quickstart DB 18.1 should be up and running
 * Install etl-client-docker container up and running ( follow above installation instructions) 

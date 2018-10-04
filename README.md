@@ -42,8 +42,7 @@ If you already familiar with the process and want to load your custom data file 
 * Build Initial mapping file using [MappingGenerator](https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator)
 * Fix mapping file to match your i2b2 tree and datatypes, try using Mapping Editor (provided) to fix the mapping file
 * Run [EntityGenerator](https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator) to generate csv file for each table
-* Run Workflow scripts to load data in your DB
-* https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator
+* Run [Workflow scripts](https://github.com/hms-dbmi/ETLToolSuite-WorkflowScripts) to load data in your DB
 * Run quickstart 18.1 app to point to this DB to validate your load
 * Rerun the load ( to refresh database ) 
 

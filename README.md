@@ -7,7 +7,7 @@ ETL-client 18.1 docker container can be used to load the properly delimited data
 * Locally ( on Mac/Linux ) 
   * Docker should up and running 
 * On a VM on a cloud vendor like AWS, GCP and Azure
-  * If you are spinning VM on cloud vendor then you have to perform some [additional steps ](https://github.com/hms-dbmi/etl-client-docker/blob/master/etl-client-AWS-EC2.md) to make the machine ready for docker image
+  * perform some [additional steps ](https://github.com/hms-dbmi/etl-client-docker/blob/master/etl-client-AWS-EC2.md) to make the machine(VM/EC2) ready for docker image
 
 
 

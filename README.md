@@ -19,13 +19,13 @@ This etl-client docker image can be deployed using following 2 ways:
 
 
 #### There are 2 ways you can use this etl-client.
-##### Use case 1: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;##### Use case 1: 
         
-[ETL client with (Quickstart 18.1b stack)](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase1.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ETL client with (Quickstart 18.1b stack)](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase1.md)
 
-##### Use Case 2:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;##### Use Case 2:
 
-[ETL client with (Struct DB)](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase2.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ETL client with (Struct DB)](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase2.md)
 
 
 
@@ -51,5 +51,5 @@ If you already familiar with the process and want to load your custom data file 
 * small~100 
 * large~5k
 
-[Load NHANES data subsets example](https://hms-dbmi.atlassian.net/wiki/spaces/AVL/pages/621183053/Quick+Start+ETL+Examples)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Load NHANES data subsets example](https://hms-dbmi.atlassian.net/wiki/spaces/AVL/pages/621183053/Quick+Start+ETL+Examples)
 

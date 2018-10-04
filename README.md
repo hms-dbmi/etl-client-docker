@@ -1,6 +1,8 @@
 # etl-client 
 
-ETL-client 18.1 docker container can be used to load the properly delimited dataset (for example: NHANES)  into i2b2/TM 18.1 compatible database.
+etl-client 18.1 is deployed as docker container and can be used to load the properly delimited dataset (for example: NHANES)  into i2b2/TM 18.1 compatible database. Once you are familiar with the process then you can use it load any clinical datafile in i2b2/tranSMART 18.1 database. 
+
+The example here is shown with oracle database. 
 
 ![ETL Client Oevreview](https://github.com/hms-dbmi/etl-client-docker/blob/master/ETL-client-overview.png)
 

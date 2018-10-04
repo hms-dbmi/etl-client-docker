@@ -26,8 +26,13 @@ https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase2.md
 
 ## Load Data
 
-Link for instructions to load data: https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator
+It is recommeded that you first try loading example datafiles provided in
+https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator/tree/master/example
 
+```
+If you already familiar with the process and want to load your custom data file then follow the instructions below:
+https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator
+```
 
 
 

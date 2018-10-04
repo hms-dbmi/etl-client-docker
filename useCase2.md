@@ -4,7 +4,7 @@
 ## Docker Host Hardware Requirements
 
 * 8GB RAM
-* 64GB of free Hard Drive space
+* 50GB of free Hard Drive space
 * Docker for Mac and Docker for Windows are not supported unless you use docker-machine to create a VM that meets the requirements for RAM and Hard Drive space.
 
 ## Use Case 2: ETL client with (Struct DB)

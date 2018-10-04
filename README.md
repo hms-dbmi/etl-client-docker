@@ -2,7 +2,7 @@
 
 etl-client 18.1 is deployed as docker container and can be used to load the properly delimited dataset (for example: NHANES)  into i2b2/TM 18.1 compatible database. Once you are familiar with the process then you can use it load any clinical datafile in i2b2/tranSMART 18.1 database. 
 
-The example here is shown with oracle database. 
+
 
 ![ETL Client Oevreview](https://github.com/hms-dbmi/etl-client-docker/blob/master/ETL-client-overview.png)
 
@@ -19,11 +19,11 @@ This etl-client docker image can be deployed using following 2 ways:
 
 
 #### There are 2 ways you can use this etl-client.
-#####Use case 1: 
+##### Use case 1: 
         
 [ETL client with (Quickstart 18.1b stack)](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase1.md)
 
-#####Use Case 2:
+##### Use Case 2:
 
 [ETL client with (Struct DB)](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase2.md)
 
@@ -51,6 +51,8 @@ If you already familiar with the process and want to load your custom data file 
 * Run [quickstart 18.1 app](https://github.com/i2b2-tranSMART/i2b2transmart-quick-start) to point to this DB to validate your load
 
 ## Example to load NHANES dataset subsets 
+
+The example here is shown with oracle database. 
 * small~100 
 * large~5k
 

@@ -1,4 +1,6 @@
-#### If using AWS EC2 for etl then follow the steps below to prepare EC2
+#### If using AWS EC2 for etl then follow the steps below to prepare EC2 
+
+Once machine is ready, then go back and install the etl-docker client 
 
 ```
 sudo yum update -y

@@ -10,6 +10,8 @@
 ## Use Case 2: ETL client with (Struct DB)
 
 If there is no Quickstart 18.1 (app and db) and you just want to load the data in database. Just follow the steps:
+* Setup Docker machine
+* Create working directory
 * Create Network
 * Build quickstart database structure only - no data.
 * Build etl-client-docker
@@ -23,8 +25,7 @@ If there is no Quickstart 18.1 (app and db) and you just want to load the data i
 
 #### Create working directory
 
-```
-mkdir etl-client
+```mkdir etl-client
 cd etl-client
 ```
 

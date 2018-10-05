@@ -25,9 +25,8 @@ If there is no Quickstart 18.1 (app and db) and you just want to load the data i
 
 #### Create working directory
 
-```mkdir etl-client
-cd etl-client
-```
+```mkdir etl-client```
+```cd etl-client```
 
 #### Create network
 ```

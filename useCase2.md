@@ -42,3 +42,16 @@ You can run the following command to make sure your connections to database is v
 ```
 docker exec -it etl-client bash validate-db.sh 
 ```
+
+#### Load the data
+
+#### Clone the Quickstart Applciation (with out database)
+
+```
+git clone https://github.com/hms-dbmi/i2b2tmapp-quickstart.git  i2b2tmapp-quickstart
+
+cd i2b2tmapp-quickstart
+
+docker-compose up -d
+
+```

@@ -43,7 +43,16 @@ You can run the following command to make sure your connections to database is v
 docker exec -it etl-client bash validate-db.sh 
 ```
 
-#### Load the data
+
+
+## Perform Dataload in DB schema
+
+Example to load NHANES dataset subsets 
+
+* small ~ 100 patients
+* large ~ 5k patients
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Load NHANES data subsets example](https://hms-dbmi.atlassian.net/wiki/spaces/AVL/pages/621183053/Quick+Start+ETL+Examples)
 
 #### Clone the Quickstart Application (with out database)
 

@@ -45,7 +45,7 @@ docker exec -it etl-client bash validate-db.sh
 
 #### Load the data
 
-#### Clone the Quickstart Applciation (with out database)
+#### Clone the Quickstart Application (with out database)
 
 ```
 git clone https://github.com/hms-dbmi/i2b2tmapp-quickstart.git  i2b2tmapp-quickstart

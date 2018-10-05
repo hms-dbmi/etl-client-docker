@@ -54,6 +54,8 @@ Example to load NHANES dataset subsets
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Load NHANES data subsets example](https://hms-dbmi.atlassian.net/wiki/spaces/AVL/pages/621183053/Quick+Start+ETL+Examples)
 
+[ETL process overview](https://github.com/hms-dbmi/etl-client-docker)
+
 #### Clone the Quickstart Application (with out database)
 
 ```

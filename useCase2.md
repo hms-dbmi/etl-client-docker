@@ -15,6 +15,20 @@ If there is no Quickstart 18.1 (app and db) and you just want to load the data i
 * Build etl-client-docker
 * Validate Oracle database connection 
 
+#### Setup Docker machine
+```docker-machine create --driver=virtualbox --virtualbox-cpu-count -8 --virtualbox-disk-size 65000 --virtualbox-memory 8192 i2b2tm```
+
+```eval $(docker-machine env i2b2tm)```
+
+
+#### Create working directory
+```mkdir $HOME/etl_181/
+cd $HOME/etl_181/
+
+mkdir etl-client
+cd etl-client
+```
+
 #### Create network
 ```
 docker network create quickstart_public

@@ -44,7 +44,7 @@ If you already familiar with the process and want to load your custom data file 
 * Fix mapping file to match your i2b2 tree and datatypes, try using Mapping Editor (provided) to fix the mapping file
 * Run [EntityGenerator](https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator) to generate csv file for each table
 * Run [Workflow scripts](https://github.com/hms-dbmi/ETLToolSuite-WorkflowScripts) to load data in your DB
-* Run [quickstart 18.1 app](https://github.com/hms-dbmi/i2b2tmapp-quickstart) to point to this DB to validate your load
+* Run [quickstart 18.1 app](https://github.com/hms-dbmi/i2b2tmapp-quickstart) to point to this DB to validate your load ( this step only applies if you are following Use Case 2) 
 
 ## Example to load NHANES dataset subsets 
 

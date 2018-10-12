@@ -42,25 +42,15 @@ docker run --name quickstart_db_1 --network quickstart_public -d   -p 1521:1521 
 #### Build etl-client-docker 
 ```
 docker run --name etl-client --network quickstart_public \
-		-e DB_HOST=<hostname> \
+		-e DB_HOST=quickstart_db_1 \
 		-e DB_USER=<username> \
 		-e DB_PASSWORD=<password> \
-		-e DB_PORT=<port> \
-		-e DB_NAME=<databasename> \
+		-e DB_PORT=1521 \
+		-e DB_NAME=orclpdb1 \
 		-d   -p 7000:5000  dbmi/etl-client:etl-client-i2b2tm-18.1 
 
 ```
-###### Here is an example with default values.
-
-```
-docker run --name etl-client --network quickstart_public \
-        -e DB_HOST=quickstart_db_1 \
-        -e DB_USER=pdbadmin \
-        -e DB_PASSWORD=password \
-        -e DB_PORT=1521 \
-        -e DB_NAME=orclpdb1 \
-        -d   -p 7000:5000  dbmi/etl-client:etl-client-i2b2tm-18.1 
-```
+<i> Use "pdbadmin" as DB_USER and "password" as DB_PASSWORD for default values. </i>
 
 #### Validate Oracle database connection
 You can run the following command to make sure your connections to database is valid 

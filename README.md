@@ -31,7 +31,7 @@ This etl-client docker image can be deployed using following 2 ways:
 
 ## Data Loading Overview
 
-It is recommeded that you first try loading [example datafiles](https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator/tree/master/example) .
+It is recommended that you first try loading [example datafiles](https://github.com/hms-dbmi/ETLToolSuite-MappingGenerator/tree/master/example) .
 
 
 If you already familiar with the process and want to load your custom data file then just follow the steps below.

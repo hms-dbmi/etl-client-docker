@@ -1,4 +1,4 @@
-# etl-client
+# i2b2/tranSMART etl-client
 
 etl-client 19.1 is deployed as docker container and can be used to load the properly delimited dataset (for example: NHANES data publicly available)  into i2b2/TM 19.1 compatible database. Once you are familiar with the process then you can use it load any clinical datafile in i2b2/tranSMART 19.1 database. Our process has been tested extensively on Oracle databases so if you are running any database the please adjust the enviornment accordingly.
 

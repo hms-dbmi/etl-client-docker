@@ -2,6 +2,10 @@
 
 etl-client 19.1 is deployed as docker container and can be used to load the properly delimited dataset (for example: NHANES data publicly available)  into i2b2/TM 19.1 compatible database. Once you are familiar with the process then you can use it load any clinical datafile in i2b2/tranSMART 19.1 database. 
 
+# DISCLAIMER: 
+###The data loader truncate and reload the i2b2demodata schema tables .###
+Please double check before running any data loaders in production environment
+
 
 
 ![ETL Client Oevreview](https://github.com/hms-dbmi/etl-client-docker/blob/master/etl-client-19.1.png)
@@ -50,7 +54,9 @@ If you already familiar with the process and want to load your custom data file 
 * Fix mapping file to match your i2b2 tree and datatypes, try using Mapping Editor (provided) to fix the mapping file
 * Run [EntityGenerator](https://github.com/hms-dbmi/ETLToolSuite-EntityGenerator) to generate csv file for each table
 * Run [Workflow scripts](https://github.com/hms-dbmi/ETLToolSuite-WorkflowScripts) to load data in your DB
-* Test your i2b2/tranSMART application with latest data loaded. If using the quickstart 18.1  [then use this link quickstart 18.1 app](https://github.com/hms-dbmi/i2b2tmapp-quickstart) to validate your load
+* Test your i2b2/tranSMART application with latest data loaded. 
+
+
 ## Example to load NHANES dataset subsets 
 
 * small ~ 100 patients

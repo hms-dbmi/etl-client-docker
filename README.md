@@ -4,7 +4,7 @@ etl-client 19.1 is deployed as docker container and can be used to load the prop
 
 
 
-![ETL Client Oevreview](https://github.com/hms-dbmi/etl-client-docker/blob/master/ETL-client-overview.png)
+![ETL Client Oevreview](https://github.com/hms-dbmi/etl-client-docker/blob/master/etl-client-19.1.png)
 
 ## Installation 
 

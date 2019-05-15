@@ -12,7 +12,7 @@
 ```
 
 #### Build etl-client-docker
-<i> Use "pdbadmin" as DB_USER and "password" as DB_PASSWORD for default values. </i>
+Use "pdbadmin" as DB_USER and "password" as DB_PASSWORD for default values.
 
 ```
 docker run --name etl-client --network quickstart_public \
@@ -39,9 +39,7 @@ Example to load NHANES dataset subsets
 
 * small ~ 100 patients
 * large ~ 5k patients
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+ 
 [Load NHANES data subsets example](https://github.com/hms-dbmi/ETLToolSuite-EntityGenerator/blob/master/Example-NHANES.md)
 
 [ETL process overview](https://github.com/hms-dbmi/etl-client-docker)

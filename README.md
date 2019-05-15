@@ -50,8 +50,7 @@ If you already familiar with the process and want to load your custom data file 
 * Fix mapping file to match your i2b2 tree and datatypes, try using Mapping Editor (provided) to fix the mapping file
 * Run [EntityGenerator](https://github.com/hms-dbmi/ETLToolSuite-EntityGenerator) to generate csv file for each table
 * Run [Workflow scripts](https://github.com/hms-dbmi/ETLToolSuite-WorkflowScripts) to load data in your DB
-* Test your i2b2/tranSMART application with latest data loaded. [Check this link for quickstart 18.1 app](https://github.com/hms-dbmi/i2b2tmapp-quickstart) to point to this DB to validate your load ( this step only applies if you are following Use Case 2) 
-
+* Test your i2b2/tranSMART application with latest data loaded. If using the quickstart 18.1  [then use this link quickstart 18.1 app](https://github.com/hms-dbmi/i2b2tmapp-quickstart) to validate your load
 ## Example to load NHANES dataset subsets 
 
 * small ~ 100 patients

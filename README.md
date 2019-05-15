@@ -1,9 +1,9 @@
 # i2b2/tranSMART etl-client
 
-etl-client 19.1 is deployed as docker container and can be used to load the properly delimited dataset (for example: NHANES data publicly available)  into i2b2/TM 19.1 compatible database. Once you are familiar with the process then you can use it load any clinical datafile in i2b2/tranSMART 19.1 database. Our process has been tested extensively on Oracle databases so if you are running any database the please adjust the enviornment accordingly.
+etl-client 19.1 is deployed as docker container and can be used to load properly delimited dataset (for example: NHANES data publicly available) into i2b2/TM 19.1 compatible database. With higher level of process familiarity it can be used to load any clinical datafile in i2b2/tranSMART 19.1 database. This process has been tested extensively on Oracle databases. Other RDBMS  might need some additional environment specific setups.
 
 ## DISCLAIMER:
-### The data loader truncate and reload the i2b2demodata/i2b2metadata schema tables.
+### The data loader truncates and reloads i2b2demodata/i2b2metadata schema tables.
 Please double check before running any data loaders in production environment.
 
 
@@ -12,10 +12,10 @@ Please double check before running any data loaders in production environment.
 
 ## Installation
 
-This etl-client docker image can be deployed using following 2 ways:
+This etl-client docker image can be deployed in following 2 ways:
 
 * Locally ( on Mac/Linux )
-  * Docker should up and running
+  * Docker should be up and running
 * On a VM on a cloud vendor like AWS, GCP and Azure
   * perform some [additional steps ](https://github.com/hms-dbmi/etl-client-docker/blob/master/etl-client-AWS-EC2.md) to make the machine(VM/EC2) ready for docker image
 

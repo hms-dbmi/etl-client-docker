@@ -26,7 +26,7 @@ This etl-client docker image can be deployed using following 2 ways:
 
 ##### Use Case 19.1 ( preferred if you are loading your own data in production with 19.1 stack):
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ETL client with (Struct DB)](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase-19.1.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ETL client with 19.1 Database](https://github.com/hms-dbmi/etl-client-docker/blob/master/useCase-19.1.md)
 
 
 
